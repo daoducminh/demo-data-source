@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://${PG_HOST}:${PG_PORT}/${PG_DATABASE}
+    url: jdbc:postgresql://${PG_HOST}:${PG_PORT}/demo_data_source
     username: ${PG_USER}
     password: ${PG_PASSWORD}
 
@@ -9,4 +9,4 @@ spring:
 #    hibernate:
 #      ddl-auto: update
 server:
-  port: ${SPRING_PORT:8080}
+  port: 8081
