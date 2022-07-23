@@ -4,3 +4,6 @@ spring:
     url: jdbc:postgresql://${PG_HOST}:${PG_PORT}/${PG_DATABASE}
     username: ${PG_USER}
     password: ${PG_PASSWORD}
+#  jpa:
+#    hibernate:
+#      ddl-auto: update

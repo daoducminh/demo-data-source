@@ -1,6 +1,7 @@
 package com.example.demodatasource.model.entity;
 
 import lombok.AccessLevel;
+import lombok.Data;
 import lombok.Setter;
 
 import javax.persistence.*;
@@ -8,6 +9,7 @@ import java.util.Date;
 
 @Entity
 @Table(name = "user_education")
+@Data
 public class UserEducation {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
